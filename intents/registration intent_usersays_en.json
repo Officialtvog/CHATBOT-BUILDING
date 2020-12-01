@@ -1,0 +1,182 @@
+[
+  {
+    "id": "789de84b-55df-47fd-bc55-567210cb893f",
+    "data": [
+      {
+        "text": "my name is ",
+        "userDefined": false
+      },
+      {
+        "text": "tope",
+        "meta": "@sys.person",
+        "alias": "person",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "796f13b6-fba0-4c9b-a9b3-c3dd0b0e9e1b",
+    "data": [
+      {
+        "text": "3",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      },
+      {
+        "text": " courses",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a0e1701f-60d4-4276-8309-5bf688dddab0",
+    "data": [
+      {
+        "text": "my email is  dupe@email.",
+        "userDefined": false
+      },
+      {
+        "text": "com",
+        "meta": "@sys.email",
+        "alias": "email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "68d44208-7def-4a97-bcc5-ac1a16d56a12",
+    "data": [
+      {
+        "text": "my name is dupe",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1d09787c-7458-4df7-9be8-7989417477b7",
+    "data": [
+      {
+        "text": "i need a course to register for",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c3e29b73-83cb-4649-b7eb-31ad8c0f7eec",
+    "data": [
+      {
+        "text": "i want to know how to register with tech ",
+        "userDefined": false
+      },
+      {
+        "text": "reyal",
+        "meta": "@sys.person",
+        "alias": "person",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2165bdf9-e40a-4484-9d39-c6e078151874",
+    "data": [
+      {
+        "text": "can i register?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "14e4cc2f-6415-4c23-84fc-300aab096094",
+    "data": [
+      {
+        "text": "what course can i register for",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5bbf09be-e073-493b-9e1a-3e05a7645f04",
+    "data": [
+      {
+        "text": "pls what are tech reyal courses?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fa48f98b-1229-49e0-9306-9c25110a4e96",
+    "data": [
+      {
+        "text": "i want to know the course i can register for",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "94998681-1d65-45fc-9544-8ab7df570d70",
+    "data": [
+      {
+        "text": "i want to register",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "37c257b4-fb6f-4e9c-81c8-8ed55cf98523",
+    "data": [
+      {
+        "text": "i want to register for a course",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

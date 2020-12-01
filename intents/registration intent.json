@@ -1,0 +1,129 @@
+{
+  "id": "c5702581-af3f-4517-9956-24f2d1aefc01",
+  "name": "registration intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "727b7407-0ffd-4a0e-ae89-720c1c380e55",
+          "name": "person",
+          "required": true,
+          "dataType": "@sys.person",
+          "value": "$person",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "what is your name please?"
+            },
+            {
+              "lang": "en",
+              "value": "can i get your name please?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "385d31b6-b320-4840-911c-dd38c2b499cb",
+          "name": "course",
+          "required": true,
+          "dataType": "@course",
+          "value": "$course",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "what course to register for"
+            },
+            {
+              "lang": "en",
+              "value": "what course do you need"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "5b65cd0a-44f5-45a2-97e3-4494dc6d9e79",
+          "name": "number",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "how many courses please?"
+            },
+            {
+              "lang": "en",
+              "value": "whats the number of courses,you want to register for"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "1d1833c3-5b7f-46a9-949a-3de3f9f07b5a",
+          "name": "email",
+          "required": true,
+          "dataType": "@sys.email",
+          "value": "$email",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "whats your email"
+            },
+            {
+              "lang": "en",
+              "value": "can i get your email"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "$person the $course is  good and you will start the moment you registe with this link and a confirmation will be sent to your $email",
+            "$person this $course is perfect,you will start when you register with this link and a confirmation will be sent to your $email"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

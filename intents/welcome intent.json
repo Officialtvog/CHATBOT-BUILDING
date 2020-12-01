@@ -1,0 +1,47 @@
+{
+  "id": "a43b3ddf-b127-4175-a74d-07153ed1284c",
+  "name": "welcome intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": true,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Hello !! you welcome to tech reyal... How can I help you?",
+            "Greetings! How can I assist you?",
+            "hi you are welcome to tech reyal",
+            "this is tech reyal,you are fully welcome",
+            "hi,what can i do for you? this is tech reyal",
+            "Tech reyal here...what can i do for you",
+            "What do you need?you are welcome to tech reyal",
+            "Hi this is tech reyals chatbot,what would you like to know about tech reyal",
+            "Thank you for choosing tech reyal..what can i do for you"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
